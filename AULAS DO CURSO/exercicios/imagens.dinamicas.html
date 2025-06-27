@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>IMAGENS DINAMICAS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <H1> IMAGENS DINAMICAS</H1>
+     <hr>
+    <P> TENTE ABRIR ESSAS IMAGENS EM DIFERENTES TAMANHOS</P>
+    <hr>
+
+    <h3> A TAG PICTURE SERVE PARA ARMAZENAR FOToS DE QUALQUER FORMATO</h3>
+    <p><blockquote> A tag "source" define a melhor opção com base em tipo, resolução, formato ou largura da tela.</blockquote></p>
+     
+   <picture>
+    <img src="imagens/foto grande.png" alt="img flexivel">
+    <source media="(max-width: 1000px)" srcset="imagens/FOTO-PEQUENA.png" type="image/"
+   </picture>
+   <picture>
+    <img src="imagens/FOTO-PEQUENA.png" alt="img.flexivel">
+    <source media="(max-width: 900px)" srcset="immagens/FOTO-PEQUENA.png" type="image">
+    <img src="imagens/img.media,html.avif" alt="immg.felxivel">
+    <source media="800px" srcset="immagens/img.media.png" type="image">
+   </picture>
+
+
+</body>
+</html>
