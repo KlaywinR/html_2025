@@ -7,15 +7,14 @@ body {
     background-color: #e5d7d7;
     margin: 0%;
     padding: 0%;
-    line-height: normal;
     text-align: left;
     text-decoration: dashed #000;
     text-transform: none;
     text-indent: 0px;
     text-shadow: none;
     border: 1px solid #000;
-    border-radius: 0px;
-    box-shadow: none;
+    border-radius: 10px;
+    
 }
 
 h1, h2, h3 {
