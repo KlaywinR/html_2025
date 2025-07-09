@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Restaurantes Benjamin</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="cardapio.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: linear-gradient(135deg, #b993987f, #42393249);
+            background-color: #1a74ce47;
+            color: #332f2f;
+            line-height: 1.6;
+            padding: 8px;
+        }
+
+        header p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.8 rem;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 8px;
+
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        main.Menu {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        section.Categoria {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #eee;
+            padding-bottom: 15px;
+            background-image: linear-gradient();
+        }
+
+        section.Categoria h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .item,
+        .item {
+            background-color: #4d6e849a;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin-bottom: 45px;
+            box-shadow: 0 2px 8px rgb(8, 8, 8);
+            transition: transform 0.2s ease;
+        }
+
+        .item:hover,
+        .item:hover {
+            transform: translate(-6px);
+            background-color: #e9ecf56e;
+        }
+
+        .item h3,
+        .item h3 p {
+            font-size: 1.3rem;
+            margin-bottom: 5px;
+            color: #202017a5;
+        }
+
+        .item p,
+        .item p {
+            font-size: 1rem;
+            color: #555;
+
+        }
+
+        .item span,
+        .item span {
+            display: block;
+            text-align: center;
+            font-size: small;
+            font-weight: bold;
+
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #40415481;
+            color: #ccc;
+            font-size: 0, 9rem;
+            border-radius: 199rem;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Restaurantes Benjamim</h1>
+        <p>Seja Bem-Vindo ao nosso cardápio digital.</p>
+    </header>
+    <main class="Menu">
+        <section class="Categoria">
+            <h2>As Nossas Entradas</h2>
+            <div class="item">
+                <h3>Bruschetta Tradicional</h3>
+                <p>Pão italiano tostado com tomate, manjericão e azeite extra virgem.</p><span>Preço: R$ 13,00</span>
+            </div>
+            <div class="item">
+                <h3>Carpaccio de Carne</h3>
+                <p>Finas lâminas de carne bovina com parmesão, rúcula e molho de alcaparras.</p><span>Preço: R$
+                    88,00</span>
+            </div>
+            <div class="item">
+                <h3>Ceviche de Tilápia</h3>
+                <p>Cubos de peixe marinado em limão, com cebola roxa, coentro e pimenta.</p><span>Preço: R$ 68,00</span>
+            </div>
+            <div class="item">
+                <h3>Mini Pastéis Gourmet (6 un.)</h3>
+                <p>Recheios sortidos: carne, queijo e camarão. Servidos com molho da casa.</p><span>Preço: R$
+                    25,00</span>
+            </div>
+            <div class="item">
+                <h3>Queijo Coalho Grelhado com Mel e Pimenta</h3>
+                <p>Clássico nordestino com toque agridoce e levemente picante.</p><span>Preço: R$ 35,00</span>
+            </div>
+            <div class="item">
+                <h3>Tartar de Salmão com Avocado</h3>
+                <p>Cubos de salmão fresco temperados com limão siciliano, azeite trufado e acompanhados de creme de
+                    avocado.</p><span>Preço: R$ 110,00</span>
+            </div>
+            <div class="item">
+                <h3>Vieiras Grelhadas com Purê de Ervilhas</h3>
+                <p>Vieiras seladas na manteiga com purê cremoso de ervilhas frescas e redução de vinho branco.</p>
+                <span>Preço: R$ 95,00</span>
+            </div>
+            <div class="item">
+                <h3>Ceviche de Camarão com Manga</h3>
+                <p>Camarões marinados em limão com cubos de manga, coentro, cebola roxa e pimenta dedo-de-moça.</p>
+                <span>Preço: R$ 80,00</span>
+            </div>
+            <div class="item">
+                <h3>Foie Gras com Redução de Frutas Vermelhas</h3>
+                <p>Fígado de pato servido com calda agridoce de frutas silvestres e brioche tostado.</p><span>Preço: R$
+                    100,00</span>
+            </div>
+        </section>
+        <section class="Categoria">
+            <h2> Nossos Pratos Principais</h2>
+            <div class="item">
+                <h3>Feijoada Mimosinha</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam provident corrupti tempore cumque
+                    suscipit, inventore quam, mollitia praesentium facilis eius ipsa commodi laboriosam repellendus
+                    facere sunt blanditiis soluta molestiae similique.</p><span> TAM G: R$ 30,00 | TAM M: R$ 22,00 | TAM
+                    P: R$ 14,00 </span>
+            </div>
+            <div class="item">
+                <h3>Filé ao Molho Madeira - com redução de vinho tinto.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam provident corrupti tempore cumque
+                    suscipit, inventore quam, mollitia praesentium facilis eius ipsa commodi laboriosam repellendus
+                    facere sunt blanditiis soluta molestiae similique.</p><span> TAM G: R$ 130,00 | TAM M: R$ 50,00 |
+                    TAM P: R$ 45,50 </span>
+            </div>
+            <div class="item">
+                <h3>Filé de Salmão - Grelhado no forno de barro</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam provident corrupti tempore cumque
+                    suscipit, inventore quam, mollitia praesentium facilis eius ipsa commodi laboriosam repellendus
+                    facere sunt blanditiis soluta molestiae similique.</p><span> TAM G: R$ 75,00 | TAM M: R$ 60,00 | TAM
+                    P: R$ 25,00 </span>
+            </div>
+            <div class="item">
+                <h3>Filé Mignon ao Molho Madeira</h3>
+                <p>Acompanha arroz branco e batatas rústicas. Macio e saboroso.</p><span>Preço: R$ 120,00 </span>
+            </div>
+            <div class="item">
+                <h3>Risoto de Camarão com Limão Siciliano</h3>
+                <p>Arroz arbório cremoso com camarões salteados e toque cítrico.</p><span>Preço: R$ 25,00</span>
+            </div>
+        </section>
+        <section class="Categoria">
+            <h2>Sobremesas da Casa</h2>
+            <div class="item">
+                <h3>Tarte Tatin de Maçã com Sorvete de Baunilha</h3>
+                <p>Torta francesa invertida de maçã caramelizada, servida quente com sorvete artesanal.</p><span></span>
+            </div>
+            <div class="item">
+                <h3>Petit Gâteau com Ganache de Chocolate Belga</h3>
+                <p>Bolo de chocolate com interior cremoso, acompanhado de sorvete e frutas vermelhas frescas.</p>
+                <span></span>
+            </div>
+            <div class="item">
+                <h3>Mil-folhas de Creme Diplomata e Frutas Vermelhas</h3>
+                <p>Camadas crocantes de massa folhada com creme leve e frutas silvestres frescas.</p><span></span>
+            </div>
+            <div class="item">
+                <h3>Pavê de Pistache com Framboesas</h3>
+                <p>Creme de pistache intercalado com biscoitos amanteigados e toque ácido das framboesas.</p>
+                <span></span>
+            </div>
+            <div class="item">
+                <h3>Tiramisu Clássico com Toque de Amaretto</h3>
+                <p>Sobremesa italiana feita com mascarpone, café espresso e leve aroma de licor de amêndoas.</p>
+                <span></span>
+            </div>
+        </section>
+        <section class="Categoria">
+            <h2> Bebidas da Casa </h2>
+            <h1> Uísques </h1>
+            <div class="item">
+                <h3>Old Par</h3>
+                <p>Whisky escocês suave, com notas de frutas secas, baunilha e leve defumado.</p><span>Dose: R$ 14,00 |
+                    Litro: R$ 220,00</span>
+            </div>
+            <div class="item">
+                <h3>Whisky Black Label - 12 Anos</h3>
+                <p>Equilibrado, notas de malte, baunilha, fumaça suave e caramelo.</p><span>Dose: R$ 35,00 | Litro: R$
+                    290,00</span>
+            </div>
+            <div class="item">
+                <h3>Wkisky Macallan - 18 anos</h3>
+                <P>Leve, adocicado, com toque de maçã, mel e cereal.</P><span>Dose: R$ 30,00 | Litro: R$ 170,00</span>
+            </div>
+            <div class="item">
+                <h3>Ballantine’s Finest - Escocês</h3>
+                <p>Suave e frutado, com notas de mel, ervas e carvalho.</p><span>Dose: R$ 45,00 | Litro: R$
+                    325,00</span>
+            </div>
+            <div class="item">
+                <h3>Chivas Regal 12 anos - Escocês</h3>
+                <p>Leve, suave, com notas de baunilha, madeira e especiarias.</p><span>Dose: R$ 42,00 | Litro: R$
+                    240,0</span>
+            </div>
+            <div class="item">
+                <h3>Jack Daniel’s Old No. 7 - EUA</h3>
+                <p>Marcante, com sabor de baunilha, caramelo e um leve toque defumado.</p><span>Dose: R$ 35,00 | Litro:
+                    R$ 300,00</span>
+            </div>
+            <h2>Cervejas da Casa</h2>
+            <div class="item">
+                <h3>Cerveja Baden Baden</h3>
+                <p>Cerveja artesanal premium, com sabores marcantes e versões especiais como Cristal, IPA e Witbier.</p>
+                <span> Preço Unitário: R$ 5,50</span>
+            </div>
+            <div class="item">
+                <h3>Cerveja Brhama Chop</h3>
+                <p>Leve, refrescante e com espuma cremosa. Ideal para momentos descontraídos.</p><SPAN>Preço Unitário:
+                    R$ 6,50</span>
+            </div>
+            <div class="item">
+                <h3>Cerveja Skol Pilsen</h3>
+                <p>Refrescante, leve e de sabor suave. Perfeita para festas e consumo casual.</p><span>Preço Unitário:
+                    R$ 4,50</span>
+            </div>
+            <div class="item">
+                <h3>Cerveja Antartica Pilsen</h3>
+                <p>Tradicional, equilibrada e fácil de beber.</p><span>Preço Unitário: R$ 3,50</span>
+            </div>
+            <div class="item">
+                <h3>Cerveja Heineken</h3>
+                <p>Puro malte, sabor marcante e amargor equilibrado. Premium e refrescante.</p><span>Preço Unitário: R$
+                    10,00</span>
+            </div>
+            <div class="item">
+                <h3>Cerveja Corona</h3>
+                <p>Leve, suave e refrescante. Ideal com limão e perfeita para dias quentes.</p><span>Preço Unitário: R$
+                    10,00</span>
+            </div>
+            <h2>Refrigerantes</h2>
+            <div class="item">
+                <h3>Coca Cola 1L</h3>
+                <p>Zero ou Com Açúcar
+                <p></p><span>Preço: R$ 12,00</span>
+            </div>
+            <div class="item">
+                <h3>Coca Cola - 600mL</h3>
+                <p>Zero ou Normal</p><span>Preço: R$ 6,00</span>
+            </div>
+            <div class="item">
+                <h3>Coca Cola - 2L</h3>
+                <p>Zero ou com Açúcar</p><span>Preço: R$ 15,00</span>
+            </div>
+            <div class="item">
+                <h3>Pepsi - 2L</h3>
+                <p>Zero ou com Açúcar</p><span>Preço: R$ 14,00</span>
+            </div>
+            <div class="item">
+                <h3>Pepsi - 1L</h3>
+                <p>Zero ou com Açúcar</p><span>Preço: R$ 12,00</span>
+            </div>
+            <div class="item">
+                <h3>Cajuína São Geraldo - 2L</h3>
+                <p>Com Açúcar</p><span>Preço: R$ 15,00</span>
+            </div>
+            <div class="item">
+                <h3>Cajuína São Geraldo - 600mL</h3>
+                <p> 100% Nordestina</p><span>Preço: R$ 5,50</span>
+            </div>
+            <h2>Vodkas</h2>
+            <div class="item">
+                <h3>Absolut Vodka </h3>
+                <p>Sueca, pura e suave. Ideal para drinks ou pura.</p><span>Dose: R$ 12,00 | Litro: R$ 120,00</span>
+            </div>
+            <div class="item">
+                <h3>Cîroc Vodka </h3>
+                <p>Ultra premium, feita com uvas, toque frutado e macio.</p><span>Dose: R$ 11,00 | Litro: R$
+                    130,00</span>
+            </div>
+            <div class="item">
+                <h3>Smirnoff Vodka</h3>
+                <p>Tradicional e versátil. Boa para caipiroskas e coquetéis.</p><span>Dose: R$ 5,00 | Litro: R$
+                    100,00</span>
+            </div>
+            <h2>Gins</h2>
+            <div class="item">
+                <h3>Tanqueray London Dry</h3>
+                <p>Clássico, com forte presença de zimbro. Excelente para gin tônica.</p><span>Dose: R$ 25,00 | Litro:
+                    R$ 450,00</span>
+            </div>
+            <div class="item">
+                <h3>Hendrick’s Gin</h3>
+                <p>Inglês, com infusão de pepino e rosa. Sabor refinado.</p><span>Dose: R$ 18,00 | Litro: R$
+                    390,00</span>
+            </div>
+            <h2>Cachaças</h2>
+            <div class="item">
+                <h3>Cachaça Leblon</h3>
+                <p>Artesanal, suave e aromática. Ideal para caipirinhas premium</p><span>Dose: R$ 2,50 | Litro: R$
+                    55,00</span>
+            </div>
+            <div class="item">
+                <h3>Cachaça Salinas</h3>
+                <p>Envelhecida em bálsamo, sabor marcante e amadeirado.</p><span>Dose: R$ 4,00 | Litro: R$ 110,00</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> © 2025 Restaurantes Benjamim Brasil | Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
