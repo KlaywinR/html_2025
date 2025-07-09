@@ -1,0 +1,82 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-display: swap;
+    font-style: normal;
+    color: #000;
+    background-color: #e5d7d7;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+    text-decoration: dashed #000;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    
+}
+
+h1, h2, h3 {
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 0px #000;
+    background-color: #d9cbcb;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: #000;
+    cursor: default;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 9px 0;
+    padding: 0px;
+    line-height: normal;
+    text-shadow: none;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #333;
+    text-align: center;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: solid #000;
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #333;
+    text-align: left;
+    margin: 0px 0px 0px 20px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 0%;
+    list-style: disc;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #333;
+    text-align: left;
+    margin: 0px 0px 0px 20px;
+    overflow: hidden;
+    cursor: default;
+    padding-left: 0%;
+    list-style: disc;
+}
+
+head {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #333;
+    text-align: left;
+    margin: 0px 0px 0px 20px;
+    overflow: hidden;
+}
+
