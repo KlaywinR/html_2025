@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulário Estilizado</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  body {
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: x-large;
+}
+
+.custom-form {
+  background: rgba(255, 255, 255, 0.285);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  
+}
+
+.custom-form label {
+  font-weight: bold;
+  color: #fefefe;
+  text-shadow: 0 1px 2px rgba(255, 222, 222, 0.3);
+}
+
+.custom-form .form-control {
+  border: none;
+  border-radius: 15px;
+  padding: 12px 15px;
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1),
+              inset -4px -4px 8px rgba(0, 0, 0, 0.2),
+              0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+ 
+}
+
+.custom-form .form-control:focus {
+  outline: none;
+  transform: rotateY(30px);
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.15),
+              inset -2px -2px 5px rgba(255, 255, 255, 0.25),
+              0 6px 20px rgba(0, 0, 0, 0.3);
+             
+}
+  </style>
+</head>
+<body>
+
+  <div class="custom-form">
+    <div class="form-title"><strong>Entre em Contato</strong></div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Seu Endereço de Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="seunome@exemplo.com">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Sua Mensagem</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Digite sua mensagem aqui..."></textarea>
+    </div>
+  </div>
+
+</body>
+</html>
