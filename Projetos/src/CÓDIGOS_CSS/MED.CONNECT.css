@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #0f3139;
+  background: rgba(20, 72, 86, 0.88);
   color: #fff;
 }
 
@@ -86,7 +86,7 @@ form button:hover {
 }
 
 .cadastro-text a {
-  color: #00cfff;
+  color: #031010;
   text-decoration: none;
   font-weight: bold;
   padding: 5px 10px;
