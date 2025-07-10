@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial - Meu Aplicativo</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome para ícones -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: linear-gradient( #e2ea04, #e0e0e0);
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .form-container {
+      background-color: rgba(0, 0, 0, 0.189);
+      padding: 40px;
+      border-radius: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .form-group i {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #080808;
+    }
+
+    .form-group input {
+      padding-left: 40px;
+    }
+
+    .nav-pills .nav-link {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .nav-pills .nav-link.active {
+      background-color: #007bff;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+      font-weight: bold;
+      padding: 10px 30px;
+      border-radius: 50px;
+    }
+
+    .form-check-label {
+      font-size: 14px;
+    }
+
+    .icon-wrapper {
+      position: relative;
+    }
+
+  </style>
+</head>
+<body>
+
+  <main class="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+    <div class="container w-50 form-container">
+      <ul class="nav nav-pills d-flex justify-content-center mb-4">
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><i class="fas fa-sign-in-alt me-2"></i>Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-user-plus me-2"></i>Registrar</a>
+        </li>
+      </ul>
+
+      <form>
+        <div class="form-group mb-4 icon-wrapper">
+          <label for="exampleInputEmail1">Endereço de email</label>
+          <i class="fas fa-envelope"></i>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Seu email">
+          <small class="form-text text-muted">Nunca vamos compartilhar seu email com ninguém.</small>
+        </div>
+
+        <div class="form-group mb-4 icon-wrapper">
+          <label for="exampleInputPassword1">Senha</label>
+          <i class="fas fa-lock"></i>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+        </div>
+
+        <div class="form-group form-check mb-4">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane me-2"></i>Enviar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!-- Bootstrap Bundle + Font Awesome JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+
+</body>
+</html>
