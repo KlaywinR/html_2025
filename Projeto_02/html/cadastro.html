@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="../styles/cadastro.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Se Cadastre Aqui</h2>
+    <form onsubmit="return validarSenha()">
+      <input type="text" placeholder="Seu Nome" required>
+      <input type="email" placeholder="Seu Melhor Email" required>
+      <input type="date" placeholder="Data de Nascimento" required>
+      <input type="password" id="senha" placeholder="Senha" required>
+      <input type="password" id="confirmaSenha" placeholder="Confirmar Senha" required>
+      <button type="submit">Registrar</button>
+    </form>
+  </div>
+   <script src="../js/cadastro.js"></script>
+</body>
+</html>
