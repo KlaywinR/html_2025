@@ -1,118 +1,42 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: rgba(20, 72, 86, 0.88);
-  color: #fff;
+  font-family: Arial, sans-serif;
+  background-color:#716b6b;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-  display: fleX;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 60px;
-  
-}
-
-.form-section {
-  max-width: 400px;
-  margin-right: 50px;
-}
-
-.logo {
-  background-color: #248d82;
-  padding: 10px 30px;
-  border-radius: 50px;
-  display: inline-block;
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px #000;
-  margin-bottom: 5px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 15 15 10px #251f1f;
+  width: 300px;
   text-align: center;
 }
 
-.subtitle {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 14px;
-  color: #dcdcdc;
-   text-align: center;  
-}
-
-form label {
+input {
   display: block;
-  font-weight: bold;
-  margin-top: 15px;
-  font-size: 18px;
-  text-shadow: 1px 1px #000;
-}
-
-form input {
   width: 100%;
   padding: 10px;
-  margin-top: 5px;
-  border-radius: 6px;
-  border: none;
-  background-color: #95a8ac;
-  color: #fff;
-  font-size: 16px;
-  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-form button {
-  margin-top: 20px;
+button {
   width: 100%;
-  padding: 12px;
-  font-size: 18px;
-  background-color: #007f6d;
-  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #52657a;
+  color: rgb(255, 255, 255);
   border: none;
-  border-radius: 8px;
+  border-radius: 100px;
   cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.3s;
 }
 
-form button:hover {
-  background-color: #00a896;
-}
-
-.cadastro-text {
-  margin-top: 20px;
-  font-size: 14px;
-  
-}
-
-.cadastro-text a {
-  color: #031010;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 5px 10px;
-  background-color: #1e5c73;
-  border-radius: 10px;
-  box-shadow: 1px 1px #000;
-}
-
-footer {
-  margin-top: 00px;
-  font-size: 12px;
-  color: #bbb;
-  text-align: center;
-}
-.form-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* alinha tudo no centro */
-  text-align: center;  /* centraliza textos */
-}
-
-
-
-.image-section img {
-  max-width: 350px;
-  height: auto;
-  
-
+button:hover {
+  background-color: #0056b3;
 }
